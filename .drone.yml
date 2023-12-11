@@ -9,7 +9,7 @@ steps:
   # - name: dockersock
   #   path: /var/run
   commands:
-  - export DOCKER_HOST=45.95.115.119
+  - export DOCKER_HOST=212.112.145.244
   - sleep 5 # give docker enough time to start
   - docker ps -a
   - docker run -d busybox
